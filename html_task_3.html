@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>三栏布局</title>
+    <style>
+        div {
+            box-sizing: border-box;
+        }
+        .container,
+        .left,
+        .right,
+        .center {
+            padding: 20px;
+            border: 1px solid #999;
+        }
+        
+        .container {
+            background-color: #eee;
+            height: 580px;
+        }
+        
+        .left {
+            width: 200px;
+            float: left;
+            background-color: #fff;
+        }
+        
+        .right {
+            width: 120px;
+            float: right;
+            background-color: #fff;
+        }
+        
+        .center {
+            height: 400px;
+            margin-left: 220px;
+            margin-right: 140px;
+            background-color: #fff;
+            overflow: scroll；
+        }
+        
+        #grouplogo {
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+        
+        #groupname {
+            font-weight: bold;
+            color: darkblue;
+            float: left;
+            text-indent: 10px;
+        }
+        
+        .memberlogo {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #999;
+        }
+        
+        #member1,
+        #member2,
+        #member3,
+        #member4 {
+            margin-bottom: 15px;
+        } 
+        .center p {
+            text-indent: 1cm;
+        }         
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img id="grouplogo" src="image/logo.png" border: 0 width="80" height="80">
+            <div id="groupname">web</div>
+        </div>
+        <div class="right">
+            <img id="member1" class="memberlogo" src="image/logo.png" >
+            <img id="member1" class="memberlogo" src="image/logo.png" >
+            <img id="member1" class="memberlogo" src="image/logo.png" >
+            <img id="member1" class="memberlogo" src="image/logo.png" >
+            <img id="member1" class="memberlogo" src="image/logo.png" >
+        </div>
+        <div class="center">
+            <h3 style="color:red;">web</h3>
+            <p>
+                web团队是喜欢前端的一个小团队，由来自各地的前端兴趣小伙伴组成~成员共有五名！
+            </p>
+            <strong>团队主页</strong>
+            <p><strong>陈偌铭:</strong>来自厦门大学嘉庚学院。作为程序猿，具备程序猿应有的气质和帅气！</p>
+            <p><strong>陈偌铭:</strong>来自厦门大学嘉庚学院。作为程序猿，具备程序猿应有的气质和帅气！</p>
+            <p><strong>陈偌铭:</strong>来自厦门大学嘉庚学院。作为程序猿，具备程序猿应有的气质和帅气！</p>
+            <p><strong>陈偌铭:</strong>来自厦门大学嘉庚学院。作为程序猿，具备程序猿应有的气质和帅气！</p>
+           <p><strong>陈偌铭:</strong>来自厦门大学嘉庚学院。作为程序猿，具备程序猿应有的气质和帅气！</p>
+        </div>
+    </div>
+</body>
+
+</html>
