@@ -61,18 +61,13 @@ aside{
 	border: solid 1px #c0c0c0;
 	box-shadow: 1px 1px 1px 1px gray;
 }
-
 .article_img {
 	padding: 15px 0;
 }
-
-
 #article_02 li{
 	list-style-type: none;
 	padding-left: 20px;
 }
-
-
 #article_03 figure{
 	width: 120px;
 	height: 130px;
@@ -80,46 +75,38 @@ aside{
 	border: 1px solid #c0c0c0;
 	display: inline-block;
 }
-
  #article_03 figcaption{
 	height: 40px;
 	line-height: 40px;
 	vertical-align: bottom;
 	text-align: center;
 }
-
 #article_03 figure img{
 	padding: 0px 10px 10px 10px;
 	width: 100px;
 	height: 80px;
 }
-
 #article_04 li{
 	margin-left: 40px;
 }
-
 #article_04 table{
 	width: 100%;
 	border-collapse: collapse;
 }
-
 #article_04 table caption{
 	text-align: left;
 	font-size: 1.4em
 }
-
 #article_04 table th{
 	background-color: black;
 	color: white;
 }
-
 #article_04 table th, #article_04 table td{
 	border: solid 1px #c0c0c0;
 	text-align: left;
 	font-size: 1.2em;
 	padding: 3px;
 }
-
 #total, #result{
 	font-weight: bold;
 	font-size: 1.2em;
@@ -128,14 +115,12 @@ aside{
 form{
 	font-size: 1.2em;
 }
-
 #label_email, #label_psd, #label_confirm_psd, #label_sex_title, #label_city, #label_hobby, #lable_des{
 	width: 50%;
 	display: block;
 	text-align: right;
 	float: left;
 }
-
 .alert{
 	margin-left: 50%;
 	width: 50%;
@@ -143,16 +128,13 @@ form{
 	line-height: 30px;
 	color: gray;
 }
-
 .label_sex{
 	margin-right: 10px;
 }
-
 textarea{
 	width: 45%;
 	height: 80px;
 }
-
 button {
 	width: 100%;
 	height: 36px;
